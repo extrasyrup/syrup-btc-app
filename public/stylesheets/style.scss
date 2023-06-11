@@ -1,9 +1,42 @@
 body {
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #000;
+  background-image: url('/images/syrup-drip-bg.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    content: " ";
+    display: block;
+    background-image: url(/images/chef-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
   }
-  
-  a {
-    color: #00B7FF;
-  }
-  
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+a {
+
+}
+
