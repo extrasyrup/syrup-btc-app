@@ -1,10 +1,13 @@
+body, html {
+  height: 100%;
+}
+
 body {
   background-color: #000;
-  background-image: url('/images/syrup-drip-bg.svg');
+  background-image: url('/images/header-syrup-bg-1.png');
   background-repeat: no-repeat;
   background-size: 100%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  height: 100vh;
   margin: 0;
   padding: 0;
   position: relative;
